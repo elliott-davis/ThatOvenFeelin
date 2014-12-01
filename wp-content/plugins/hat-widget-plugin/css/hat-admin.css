@@ -1,0 +1,60 @@
+.hat-admin{
+	margin: 20px 0 0 20px;
+	
+}
+
+.hat-logo{
+	background: url(../img/hat-logo.png) no-repeat;
+	height: 71px;
+	padding-left: 75px;
+	margin-bottom: 30px;
+}
+
+
+
+#widget-list div[id*="_hat_widget-"] .widget-top, 
+div[id*="_hat_widget-"] .widget-top{
+  background: #fa6060;
+  border: 1px solid #de5555;
+  color: white;
+  text-shadow: none !important;
+  
+}
+
+#widget-list div[id*="_hat_widget-"] .widget-title, 
+div[id*="_hat_widget-"] .widget-title{
+  border-top: 1px solid #ffa1a1;
+}
+#widget-list div[id*="_hat_widget-"] .widget-title h4, 
+div[id*="_hat_widget-"] .widget-title h4{
+  font-weight: 900;
+}
+
+#widget-list div[id*="_hat_widget-"] .widget-title .in-widget-title, 
+div[id*="_hat_widget-"] .widget-title .in-widget-title{
+  font-weight: 500;
+  padding-left: 5px;
+  color: #ffb6b6;
+}
+#widget-list div[id*="_hat_widget-"]  a.widget-action, 
+div[id*="_hat_widget-"]  a.widget-action{
+  color: #ffb6b6;
+}
+
+#widget-list div[id*="_hat_widget-"]  a.widget-action:hover, 
+div[id*="_hat_widget-"]  a.widget-action:hover{
+  color: #fff;
+}
+
+div[id*="_hat_widget-"]{
+border-top: 0;
+}
+
+div[id*="_hat_widget-"] .widget-title-action a{
+	background: url(../img/widget-arrow.png)  0 0 no-repeat;
+}
+
+div[id*="_hat_widget-"] .widget-title-action a:hover{
+	background: url(../img/widget-arrow.png)  0 -27px no-repeat;
+}
+
