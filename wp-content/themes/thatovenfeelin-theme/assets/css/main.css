@@ -12735,6 +12735,13 @@ a.post-edit-link:hover {
 .post img {
   max-width: 660px;
   height: auto;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: none;
 }
 .wp-caption {
   text-align: left;
