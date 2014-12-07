@@ -136,14 +136,6 @@ protected static $did_script = false;
 	  	wp_register_script( 'hat_min_js', plugin_dir_url( __FILE__ ).'js/hat.2.2.min.js',array('jquery'));
 		wp_localize_script( 'hat_min_js', 'hatAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));
 		wp_enqueue_script('hat_min_js');
-	  if(get_option('hat_minified_css')=='on'){
-		wp_register_style( 'hat_min_css', plugin_dir_url( __FILE__ ).'css/hat-style-min.css');
-		wp_enqueue_style('hat_min_css');
-	  }
-	  else{
-	  	wp_register_style( 'hat_css', plugin_dir_url( __FILE__ ).'css/hat-style.css');
-		wp_enqueue_style('hat_css');
-	  }
       self::$did_script = true;
     }           	
   }
