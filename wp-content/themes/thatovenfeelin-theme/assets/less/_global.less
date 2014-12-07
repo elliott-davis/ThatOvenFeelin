@@ -7,6 +7,7 @@
 @lightblue: #5676A5;
 @blue: #224578;
 @grey: #333333;
+@green: #197462;
 
 @font-face {
 	font-family: 'caviar-dreams';
@@ -88,7 +89,9 @@ a  {
 	transition: all .2s ease-in-out }
 a:link, a:visited, a:active          {
 	color: @blue;
-	text-decoration: none }
+	text-decoration: none;
+	font-weight: 400;
+	}
 a:hover             {
 	color: @lightblue;
 	text-decoration: none }
@@ -179,6 +182,11 @@ h5        {
 	width: auto;
 	height: auto;
 }
+
+.entry-content {
+	margin-top:30px;
+}
+
 h2.pagetitle, h2.archivetitle, h2.searchtitle  {
 	margin-top: 0 }
 
@@ -833,6 +841,11 @@ div.show {
 .home .navbar {
 	border-bottom:none;
 }
+
+.home .shareaholic-floated-share-buttons-container {
+	display:none;
+}
+
 .navbar-default {
   background-color: #ffffff;
 }
@@ -938,6 +951,11 @@ div.easyrecipe {
 
 .easyrecipe .ERSTimeRight {
 	border-left: none;
+}
+
+/* General Style Overrides */
+.pin-it-btn-wrapper {
+	display:none;
 }
 
 /* Media Queries */

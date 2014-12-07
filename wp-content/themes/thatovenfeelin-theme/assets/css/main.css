@@ -12384,6 +12384,7 @@ a:visited,
 a:active {
   color: #224578;
   text-decoration: none;
+  font-weight: 400;
 }
 a:hover {
   color: #5676a5;
@@ -12488,6 +12489,9 @@ h5 {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+.entry-content {
+  margin-top: 30px;
 }
 h2.pagetitle,
 h2.archivetitle,
@@ -13120,6 +13124,9 @@ div.show {
 .home .navbar {
   border-bottom: none;
 }
+.home .shareaholic-floated-share-buttons-container {
+  display: none;
+}
 .navbar-default {
   background-color: #ffffff;
 }
@@ -13218,6 +13225,10 @@ div.easyrecipe {
 }
 .easyrecipe .ERSTimeRight {
   border-left: none;
+}
+/* General Style Overrides */
+.pin-it-btn-wrapper {
+  display: none;
 }
 /* Media Queries */
 @media (max-width: 767px) {
