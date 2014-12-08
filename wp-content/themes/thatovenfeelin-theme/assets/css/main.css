@@ -12741,6 +12741,7 @@ a.post-edit-link:hover {
   padding-right: 15px;
   float: none;
   padding: 0;
+  width: auto;
 }
 .wp-caption {
   text-align: left;
