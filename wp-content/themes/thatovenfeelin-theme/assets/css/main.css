@@ -12324,7 +12324,6 @@ video {
   white-space: normal;
   text-align: left;
   margin: 0;
-  padding: 0;
   border: 0;
   outline: 0;
   background: transparent;
@@ -12341,10 +12340,6 @@ menu,
 nav,
 section {
   display: block;
-}
-ol,
-ul {
-  list-style: none;
 }
 blockquote,
 q {
@@ -12569,6 +12564,9 @@ h3.widgettitle {
 .subscribe h3.widgettitle {
   text-align: center;
 }
+#cntctfrm_contact_form textarea {
+  border: 1px solid;
+}
 .emailform {
   overflow: hidden;
   background-color: #ffffff;
@@ -12742,6 +12740,7 @@ a.post-edit-link:hover {
   padding-left: 15px;
   padding-right: 15px;
   float: none;
+  padding: 0;
 }
 .wp-caption {
   text-align: left;
@@ -13237,7 +13236,7 @@ div.easyrecipe {
   display: none;
 }
 /* Media Queries */
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .navbar-brand span {
     font-size: 6.5vw;
   }
